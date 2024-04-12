@@ -56,10 +56,10 @@ export const experiencesData = [
     date: "Aug 2023 - Oct 2023",
   },
   {
-    title: "Trainee Software Engineer | Fortmindz Private Limited",
+    title: "Associate Software Engineer | Fortmindz Private Limited",
     location: "Kolkata, West Bengal",
     description:
-      "I currently work as Node.js backend developer and some React.js work. I have built complex REST APIs and integrated secure payment gateway and user authentication. My tech stack includes Node.js, Express, MongoDB, React.js, TypeScript. I'm open to full-time opportunities.",
+      "Working as a MERN stack developer. I have built complex REST APIs and integrated secure payment gateway and user authentication with Node.js and Express, built custom admin dashboards and have worked on web applications with React.js and Material UI. My tech stack includes Node.js, Express, MongoDB, React.js, redux, Material UI, TypeScript. I'm open to full-time opportunities.",
     icon: React.createElement(FaNodeJs),
     date: "Sept 2023 - present",
   },

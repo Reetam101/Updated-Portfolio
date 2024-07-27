@@ -10,6 +10,7 @@ import housePricePrediction from "@/public/house-prediction.png";
 import letsChat from "@/public/lets-chat.png";
 import reactAdminDashboard from "@/public/react-admin-dashboard.png";
 import indieSync from "@/public/indie-sync.png";
+import materHospital from "@/public/mater-hospital.png";
 
 export const links = [
   {
@@ -59,7 +60,7 @@ export const experiencesData = [
     title: "Associate Software Engineer | Fortmindz Private Limited",
     location: "Kolkata, West Bengal",
     description:
-      "Working as a MERN stack developer. I have built complex REST APIs and integrated secure payment gateway and user authentication with Node.js and Express, built custom admin dashboards and have worked on web applications with React.js and Material UI. My tech stack includes Node.js, Express, MongoDB, React.js, redux, Material UI, TypeScript. I'm open to full-time opportunities.",
+      "Working as a MERN stack developer. I have built complex REST APIs and integrated secure payment gateway and user authentication with Node.js and Express, worked with AWS S3 and amplify, built custom admin dashboards and have worked on web applications with React.js, Redux Toolkit and Material UI. My tech stack includes Node.js, Express, MongoDB, React.js, redux, Material UI, TypeScript. I'm open to full-time opportunities.",
     icon: React.createElement(FaNodeJs),
     date: "Sept 2023 - present",
   },
@@ -67,10 +68,34 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Mater Hospital",
+    description:
+      "I have built the backend REST APIs of this admin dashboard, I have also worked with the frontend developer to improve and optimize the code using React.js.",
+    tags: [
+      "React.js",
+      "Bootstrap",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Google Calendar API",
+      "AWS S3",
+    ],
+    liveUrl: "https://hospital-app-admin-frontend.onrender.com/",
+    imageUrl: materHospital,
+  },
+  {
     title: "Indie Sync",
     description:
-      "I worked as a backend developer on this project. It's a platform for indie artists to upload and sell their music.",
-    tags: ["React.js", "Node.js", "Express", "MongoDB"],
+      "I worked as a full stack developer working on both the frontend and the backend of this project. It's a platform for indie artists to upload and sell the license to their songs.",
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Stripe",
+      "Digital Ocean Spaces",
+    ],
+    liveUrl: "https://www.indiesync.io/home",
     imageUrl: indieSync,
   },
   {
@@ -85,6 +110,7 @@ export const projectsData = [
       "Socket.io",
       "Chakra UI",
     ],
+    liveUrl: "",
     imageUrl: letsChat,
   },
   {
@@ -92,6 +118,7 @@ export const projectsData = [
     description:
       "An admin dashboard UI built using React.js with different charts, tables and graphs for data visualization and statistics.",
     tags: ["React.js", "Material UI", "Nivo charts", "Formik"],
+    liveUrl: "",
     imageUrl: reactAdminDashboard,
   },
   {
@@ -99,6 +126,7 @@ export const projectsData = [
     description:
       "A backend REST API service for an ecommerce website with rate limiting, endpoint protection and caching implemented.",
     tags: ["Node.js", "Express", "MongoDB"],
+    liveUrl: "",
     imageUrl: ecomRestApi,
   },
   {
@@ -106,6 +134,7 @@ export const projectsData = [
     description:
       "A web application that allows users to join a room and code together in real time.",
     tags: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+    liveUrl: "",
     imageUrl: codeRoom,
   },
   {
@@ -113,6 +142,7 @@ export const projectsData = [
     description:
       "A simple blog website that allows the user to write and post blogs related to anime and japan.",
     tags: ["React.js", "Node.js", "Express", "MySQL", "sequelize", "Bootstrap"],
+    liveUrl: "",
     imageUrl: aniblogs,
   },
   {
@@ -120,6 +150,7 @@ export const projectsData = [
     description:
       "A web application that uses Machine Learning regression models in the backend to predict the prices of houses in West Bengal.",
     tags: ["Python", "Flask", "scikit-learn", "regression"],
+    liveUrl: "",
     imageUrl: housePricePrediction,
   },
 ] as const;
@@ -137,11 +168,9 @@ export const skillsData = [
   "Material UI",
   "MongoDB",
   "MySQL",
-  "Sequelize",
+  "Prisma",
   "Python",
   "Flask",
-  "Numpy",
-  "Pandas",
 ];
 
 export const toolsData = [

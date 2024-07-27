@@ -65,11 +65,11 @@ function Intro() {
       >
         <span className="font-bold">Hello, I am Reetam.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">7 months</span> of working experience at
+        <span className="font-bold">1 year</span> of working experience at
         startups. I enjoy building{" "}
         <span className="italic">websites and apps</span>. My main focus is{" "}
         <span className="font-bold">
-          MERN stack(MongoDB, Express, React, Node.js)
+          MERN stack(MongoDB, Express, React, Node.js) and React Native
         </span>
         .
       </motion.p>

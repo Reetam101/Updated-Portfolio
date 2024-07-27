@@ -94,7 +94,7 @@ function Intro() {
           <FaArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          href="https://drive.google.com/file/d/1GXHwyiuxwk5qHLOiSq7aoRGk9Y47mVDj/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1N58mo64wsCeMrD2jFGw8zItfaoaV8xaT/view?usp=sharing"
           target="_blank"
           download
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-100 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"

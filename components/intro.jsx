@@ -65,11 +65,12 @@ function Intro() {
       >
         <span className="font-bold">Hello, I am Reetam.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">1 year</span> of working experience at
-        startups. I enjoy building{" "}
+        <span className="font-bold">1.4 years</span> of working experience in
+        the IT industry. I enjoy building{" "}
         <span className="italic">websites and apps</span>. My main focus is{" "}
         <span className="font-bold">
-          MERN stack(MongoDB, Express, React, Node.js) and React Native
+          MERN stack(MongoDB, Express, React, Node.js), Next.js 14 and React
+          Native
         </span>
         .
       </motion.p>
@@ -94,7 +95,7 @@ function Intro() {
           <FaArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          href="https://drive.google.com/file/d/1N58mo64wsCeMrD2jFGw8zItfaoaV8xaT/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ej90EkvjepTBE_dp502bybyHCWVjH9Z2/view?usp=sharing"
           target="_blank"
           download
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-100 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"

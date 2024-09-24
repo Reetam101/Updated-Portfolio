@@ -11,6 +11,7 @@ import letsChat from "@/public/lets-chat.png";
 import reactAdminDashboard from "@/public/react-admin-dashboard.png";
 import indieSync from "@/public/indie-sync.png";
 import materHospital from "@/public/mater-hospital.png";
+import myPerfectShot from "@/public/my-perfect-shot.png";
 
 export const links = [
   {
@@ -67,6 +68,22 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "My Perfect Shot",
+    description:
+      "I have built the backend REST API for this web application, and have also worked with the frontend team to build the components of the website using React.js. ",
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "AWS S3 Bucket",
+      "JWTs",
+      "Stripe",
+    ],
+    liveUrl: "https://staging.d2j1m1jfrj35l1.amplifyapp.com/home",
+    imageUrl: myPerfectShot,
+  },
   {
     title: "Mater Hospital",
     description:
